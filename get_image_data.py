@@ -53,4 +53,4 @@ def make_dataset(n):
     draw_triangle(n)
 
 if __name__ == "__main__":
-    make_dataset(1000)
+    make_dataset(1)

@@ -52,8 +52,8 @@ def mixed_data():
         os.makedirs(f"Dataset/Train/{folder_name}", exist_ok=True)
         os.makedirs(f"Dataset/Validation/{folder_name}", exist_ok=True)
 
-        files_train = files[:800]
-        files_validation = files[800:]
+        files_train = files[:1600]
+        files_validation = files[1600:]
 
         for file_name in files_train:
             source = f"Dataset/{folder_name}/"+file_name
